@@ -39,7 +39,7 @@
 // $_GET and $_POST they are special global variables they can hold more than 1 value basically like list or array = [.., ... ; ....]
 
     // here i typed username cause name = "username" its important name !!!! same thing for password
-    echo $_GET["username"] . "<br />";
+    echo $_GET["username"] . "<br />"; // $_GET[(key)"username" => (value)"Mohammed"];
     echo $_GET["password"] . "<br />";
 
     echo $_POST["id"] . "<br />";
